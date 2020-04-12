@@ -1,0 +1,33 @@
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template: 
+        "one three four"
+        "two three five";
+}
+
+.one {
+    grid-area: one;
+    background: rgb(220, 123, 123);
+}
+
+.two {
+    grid-area: two;
+    background: rgb(159, 220, 123);
+}
+
+.three {
+    grid-area: three;
+    background: rgb(123, 202, 220);
+}
+
+.four {
+    grid-area: four;
+    background: rgb(223, 201, 38);
+}
+
+.five {
+    grid-area: five;
+    background: rgb(61, 71, 211);
+}
+

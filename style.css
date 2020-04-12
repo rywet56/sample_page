@@ -176,6 +176,8 @@ footer {
 }
 
 /* Media Queries */
+/* makes it useable for mobile devices by changing
+the arrangement and size of contents */
 @media(max-width: 700px) {
     .top-container {
         grid-template-areas:
